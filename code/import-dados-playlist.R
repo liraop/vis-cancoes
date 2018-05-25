@@ -14,8 +14,8 @@ Sys.setenv(SPOTIFY_CLIENT_SECRET = pull(chaves, client_secret))
 access_token <- get_spotify_access_token()
 
 # Acessa as músicas de uma playlist específica
-playlist = get_user_playlists("zananeno") %>% 
-    filter(playlist_name == "30 dias em 30 músicas")
+playlist = get_user_playlists("liraop") %>% 
+    filter(playlist_name == "Roadtripe")
 
 tracks = get_playlist_tracks(p)
 

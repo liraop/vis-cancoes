@@ -25,4 +25,4 @@ jackson %>%
 
 jackson %>% 
     bind_rows(lua) %>% 
-    write_csv(here("data/forro_do_gogó_ao_mocotó.csv"))
+    write_csv(here("data/forro_do_gogó_ao_mocotó.csv"))") %>% 

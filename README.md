@@ -6,7 +6,7 @@ Este repo tem o código da semente de uma análise características de áudio e 
 
 Tem exemplos bem iniciais de análises possíveis em `reports/`, com dados já coletados e salvos em `data/`. Os atributos de cada faixa (track) são descritos [na documentação da API do Spotify](https://beta.developer.spotify.com/documentation/web-api/reference/object-model/#audio-features-object). 
 
-Os dados são acessados via o pacote [spotifyr](https://github.com/charlie86/spotifyr), um wrapper da API do Spotify. Tem código mostrando como os dados em `data/` foram coletados e como coletar dados de playlists em `code/`. 
+Os dados são acessados via o pacote [spotifyr](https://github.com/charlie86/spinstotifyr), um wrapper da API do Spotify. Tem código mostrando como os dados em `data/` foram coletados e como coletar dados de playlists em `code/`. 
 
 ## Importante 
 
